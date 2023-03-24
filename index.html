@@ -1,934 +1,745 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
-  </head>
+</head>
 
-  <body class="body-scrollbar">
+<body class="body-scrollbar">
     <div id="app">
-      <header class="header-comp">
-        <div class="header-inner">
-          <div class="global-menu-area">
-            <a href="" class="logo">
-              <span><i class="fa-solid fa-mug-hot"></i></span>
-            </a>
-            <nav class="global-menu">
-              <ul>
-                <li><a href="" class="is--active">홈 피드</a></li>
-                <li><a href="">디렉토리</a></li>
-                <li><a href="">채용</a></li>
-                <li><span>|</span></li>
-                <li><a href="">커리어 관리</a></li>
-                <li><a href="">제안 받기</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="sub-menu-area">
-            <nav class="sub-menu">
-              <ul>
-                <li class="sub-menu-item">
-                  <span>
-                    <i class="fa-solid fa-plus"></i>
-                  </span>
-                </li>
-                <li class="sub-menu-item">
-                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                </li>
-                <li class="sub-menu-item">
-                  <span><i class="fa-solid fa-bell"></i></span>
-                </li>
-                <li class="sub-menu-item">
-                  <span><i class="fa-solid fa-heart"></i></span>
-                </li>
-                <li class="sub-menu-item">
-                  <img
-                    src="https://storage.surfit.io/user/avatar/1057223318.png"
-                    alt=""
-                  />
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
-      <main class="content-comp">
-        <div class="content-inner">
-          <div class="content-nav-area">
-            <nav class="content-nav">
-              <ul class="cate-level-1-container">
-                <li class="cate-level-1 is--open">
-                  <a href="" class="cate-level-1-item">
-                    <span>
-                      <img
-                        src="https://www.surfit.io/assets/images/emoji/emoji-surfer.png"
-                        alt=""
-                      />
-                      관심 카테고리
-                    </span>
-                  </a>
-                  <button class="cate-edit-btn">
-                    <span><i class="fa-solid fa-ellipsis"></i></span>
-                  </button>
-                  <ul class="cate-level-2-container">
-                    <li class="cate-level-2"><a href="">일반 개발</a></li>
-                    <li class="cate-level-2"><a href="">웹 개발</a></li>
-                    <li class="cate-level-2"><a href="">Python</a></li>
-                    <li class="cate-level-2"><a href="">Database</a></li>
-                    <li class="cate-level-2"><a href="">Git</a></li>
-                    <li class="cate-level-2"><a href="">일반 스타트업</a></li>
-                  </ul>
-                </li>
-                <li class="cate-level-1">
-                  <a href="" class="cate-level-1-item">
-                    <span>
-                      <img src="resources/image/icon_development.png" alt="" />
-                      개발
-                    </span>
-                  </a>
-                </li>
-                <li class="cate-level-1">
-                  <a href="" class="cate-level-1-item">
-                    <span>
-                      <img src="resources/image/icon_planning.png" alt="" />
-                      기획
-                    </span>
-                  </a>
-                </li>
-                <li class="cate-level-1">
-                  <a href="" class="cate-level-1-item">
-                    <span>
-                      <img src="resources/image/icon_design.png" alt="" />
-                      디자인
-                    </span>
-                  </a>
-                </li>
-                <li class="cate-level-1">
-                  <a href="" class="cate-level-1-item">
-                    <span>
-                      <img src="resources/image/icon_marketing.png" alt="" />
-                      마케팅
-                    </span>
-                  </a>
-                </li>
-                <li class="cate-level-1">
-                  <a href="" class="cate-level-1-item">
-                    <span>
-                      <img src="resources/image/icon_startup.png" alt="" />
-                      스타트업
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="content-area">
-            <div class="content-title-area">
-              <img
-                src="https://www.surfit.io/images/d13c9f9aa4739016c19efa7e7db123df.png"
-                alt=""
-              />
-              <span>선구님께 추천해요!</span>
+        <header class="header-comp">
+            <div class="header-inner">
+                <div class="global-menu-area">
+                    <a href="" class="logo">
+                        <span><i class="fa-solid fa-mug-hot"></i></span>
+                    </a>
+                    <nav class="global-menu">
+                        <ul>
+                            <li><a href="" class="is--active">홈 피드</a></li>
+                            <li><a href="">디렉토리</a></li>
+                            <li><a href="">채용</a></li>
+                            <li><span>|</span></li>
+                            <li><a href="">커리어 관리</a></li>
+                            <li><a href="">제안 받기</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sub-menu-area">
+                    <nav class="sub-menu">
+                        <ul>
+                            <li class="sub-menu-item">
+                                <span>
+                                    <i class="fa-solid fa-plus"></i>
+                                </span>
+                            </li>
+                            <li class="sub-menu-item">
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                            </li>
+                            <li class="sub-menu-item">
+                                <span><i class="fa-solid fa-bell"></i></span>
+                            </li>
+                            <li class="sub-menu-item">
+                                <span><i class="fa-solid fa-heart"></i></span>
+                            </li>
+                            <li class="sub-menu-item">
+                                <img src="https://storage.surfit.io/user/avatar/1057223318.png" alt="" />
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
+        </header>
+        <main class="content-comp">
+            <div class="content-inner">
+                <div class="content-nav-area">
+                    <nav class="content-nav">
+                        <ul class="cate-level-1-container">
+                            <li class="cate-level-1 is--open">
+                                <a href="" class="cate-level-1-item">
+                                    <span>
+                                        <img src="https://www.surfit.io/assets/images/emoji/emoji-surfer.png" alt="" />
+                                        관심 카테고리
+                                    </span>
+                                </a>
+                                <button class="cate-edit-btn">
+                                    <span><i class="fa-solid fa-ellipsis"></i></span>
+                                </button>
+                                <ul class="cate-level-2-container">
+                                    <li class="cate-level-2"><a href="">일반 개발</a></li>
+                                    <li class="cate-level-2"><a href="">웹 개발</a></li>
+                                    <li class="cate-level-2"><a href="">Python</a></li>
+                                    <li class="cate-level-2"><a href="">Database</a></li>
+                                    <li class="cate-level-2"><a href="">Git</a></li>
+                                    <li class="cate-level-2"><a href="">일반 스타트업</a></li>
+                                </ul>
+                            </li>
+                            <li class="cate-level-1">
+                                <a href="" class="cate-level-1-item">
+                                    <span>
+                                        <img src="resources/image/icon_development.png" alt="" />
+                                        개발
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="cate-level-1">
+                                <a href="" class="cate-level-1-item">
+                                    <span>
+                                        <img src="resources/image/icon_planning.png" alt="" />
+                                        기획
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="cate-level-1">
+                                <a href="" class="cate-level-1-item">
+                                    <span>
+                                        <img src="resources/image/icon_design.png" alt="" />
+                                        디자인
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="cate-level-1">
+                                <a href="" class="cate-level-1-item">
+                                    <span>
+                                        <img src="resources/image/icon_marketing.png" alt="" />
+                                        마케팅
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="cate-level-1">
+                                <a href="" class="cate-level-1-item">
+                                    <span>
+                                        <img src="resources/image/icon_startup.png" alt="" />
+                                        스타트업
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
+                <div class="content-area">
+                    <div class="content-title-area">
+                        <img src="https://www.surfit.io/images/d13c9f9aa4739016c19efa7e7db123df.png" alt="" />
+                        <span>선구님께 추천해요!</span>
                     </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
+                    <article class="content-item">
+                        <div class="article-image-area">
+                            <img src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
+                                alt="" class="article-thumbnail" />
+                            <div class="article-author-icon-wrapper">
+                                <img src="https://api.surfit.io/v1/channel/logo/wdyYK/1x" alt="test의 로고"
+                                    class="article-author-icon" />
+                            </div>
+                        </div>
+                        <header class="article-header">
+                            <span class="article-info">
+                                <a href="" class="article-author-name">test</a>
+                                <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
+                            </span>
+                            <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
+                            <h3 class="article-desc">
+                                가장 큰 원인은 '인간관계'가 아닐까 싶다.
+                            </h3>
+                        </header>
+                        <footer class="article-footer">
+                            <div class="footer-tag-area">
+                                <div class="footer-tag-item">일반 스타트업</div>
+                                <div class="footer-tag-item">꿀팁</div>
+                            </div>
+                            <div class="footer-option-area">
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-heart"></i></span>
+                                    </div>
+                                </div>
+                                <div class="footer-option-item-wrapper">
+                                    <div class="footer-option-item">
+                                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </article>
                 </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-            <article class="content-item">
-              <div class="article-image-area">
-                <img
-                  src="https://content.surfit.io/thumbs/image/wdyYK/9RyrO/682182019639f0f879229e/cover-center-1x.webp"
-                  alt=""
-                  class="article-thumbnail"
-                />
-                <div class="article-author-icon-wrapper">
-                  <img
-                    src="https://api.surfit.io/v1/channel/logo/wdyYK/1x"
-                    alt="test의 로고"
-                    class="article-author-icon"
-                  />
-                </div>
-              </div>
-              <header class="article-header">
-                <span class="article-info">
-                  <a href="" class="article-author-name">test</a>
-                  <time datetime="2022-12-22T00:00:03+09:00">2022.12.22</time>
-                </span>
-                <h2 class="article-title">커뮤니케이션을 잘하는 5가지 방법</h2>
-                <h3 class="article-desc">
-                  가장 큰 원인은 '인간관계'가 아닐까 싶다.
-                </h3>
-              </header>
-              <footer class="article-footer">
-                <div class="footer-tag-area">
-                  <div class="footer-tag-item">일반 스타트업</div>
-                  <div class="footer-tag-item">꿀팁</div>
-                </div>
-                <div class="footer-option-area">
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-heart"></i></span>
-                    </div>
-                  </div>
-                  <div class="footer-option-item-wrapper">
-                    <div class="footer-option-item">
-                      <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </article>
-          </div>
-        </div>
-      </main>
+            </div>
+        </main>
     </div>
-  </body>
+
+    <script src="./scripts/articles.js"></script>
+</body>
+
 </html>
