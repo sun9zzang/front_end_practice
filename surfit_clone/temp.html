@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body id="body">
-    <div id="box" style="margin: 20px; border: 1px solid black; background-color: brown; width: 50%; height: 2000px;">
-    </div>
+  <body id="body">
+    <div
+      id="box"
+      style="
+        margin: 20px;
+        border: 1px solid black;
+        background-color: brown;
+        width: 50%;
+        height: 2000px;
+      "
+    ></div>
 
     <script>
-        window.onscroll = function (e) {
-            const box = document.getElementById("box")
-            const uncoveredHeight = document.body.offsetHeight - (window.innerHeight + window.scrollY)
-            if (uncoveredHeight <= 500) {
-                box.style.backgroundColor = "brown"
-            } else {
-                box.style.backgroundColor = "aqua"
-            }
+      window.onscroll = function (e) {
+        const box = document.getElementById("box");
+        const uncoveredHeight =
+          document.body.offsetHeight - (window.innerHeight + window.scrollY);
+        if (uncoveredHeight <= 500) {
+          box.style.backgroundColor = "brown";
+        } else {
+          box.style.backgroundColor = "aqua";
         }
+      };
     </script>
-</body>
-
+  </body>
 </html>
