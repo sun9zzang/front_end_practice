@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 56px 0 0 0;
+  // background: #1a1b1e;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  font-family: "GmarketSansMedium", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+}
+
+.body-scrollbar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
+
+.body-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #55565e;
+  border-radius: 8px;
+}
+
+@import "globalheader";
+@import "goods";
+@import "cart";
