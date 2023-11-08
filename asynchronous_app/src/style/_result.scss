@@ -1,0 +1,87 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 56px 112px 0;
+
+  &-searchphrase {
+    padding-left: 4px;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    row-gap: 4px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-item {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 160px;
+
+    &-flag {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 240px;
+      }
+    }
+
+    &-info {
+      padding-left: 32px;
+    }
+
+    &-name {
+      &-common {
+        font-size: 36px;
+        font-weight: 700;
+      }
+      &-official {
+        padding-left: 2px;
+        font-size: 22px;
+        font-weight: 300;
+        font-style: italic;
+      }
+    }
+
+    &-capital {
+      margin-top: 14px;
+      padding-left: 8px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+  &-error {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  &-loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-spinner {
+      width: 100px;
+    }
+
+    &-desc {
+      margin-left: 14px;
+      font-size: 28px;
+      font-weight: 400;
+    }
+  }
+}

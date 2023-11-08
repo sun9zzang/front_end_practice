@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 96px auto 0;
+
+  &-title {
+    font-size: 54px;
+  }
+
+  &-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &-input {
+      min-width: 280px;
+      font-size: 20px;
+      padding: 4px 6px;
+      border: 1px solid black;
+      border-radius: 6px;
+    }
+
+    &-button {
+      margin-left: 14px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 6px;
+      background-color: #5cb85c;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
