@@ -23,8 +23,9 @@ export default function CountrySearch() {
         `https://restcountries.com/v3.1/name/${searchPhrase}`
       );
       if (response.status === 404) {
-        setSearchResult([]);
         throw new Error("검색 결과가 없습니다.");
+      } else if (!response.ok) {
+        throw new Error("검색에 실패했습니다. ㅈㅅㅋㅋ");
       }
 
       const data = await response.json();
@@ -41,7 +42,7 @@ export default function CountrySearch() {
       setSearchResult(convertedSearchResult);
     } catch (error) {
       // console.log(error.message);
-      setError(error.message);
+      setError(error);
     } finally {
       setIsLoading(false);
     }
@@ -98,9 +99,6 @@ function SearchResult({ isLoading, error, searchResult, lastSearchPhrase }) {
       {!isLoading && searchResult?.length > 0 && (
         <SearchResultList searchResult={searchResult} />
       )}
-      {/* {!isLoading && searchResult?.length === 0 && !error && (
-        <SearchResultNotFound />
-      )} */}
       {!isLoading && error && <SearchResultError error={error} />}
       {isLoading && <SearchLoading />}
     </div>
@@ -133,7 +131,7 @@ function SearchResultList({ searchResult }) {
 }
 
 function SearchResultError({ error }) {
-  return <h2 className="result-error">{error}</h2>;
+  return <h2 className="result-error">{error.message}</h2>;
 }
 
 function SearchLoading() {
