@@ -43,6 +43,7 @@ export default function CountrySearch() {
     } catch (error) {
       // console.log(error.message);
       setError(error);
+      setSearchResult([]);
     } finally {
       setIsLoading(false);
     }
